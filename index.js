@@ -15,7 +15,7 @@ app.use(express.json());
 
 // Route untuk tes server
 app.get("/", (req, res) => {
-  res.json("Server is running well");
+  res.json("Server is running well!");
 });
 
 // Event handler untuk menerima pesan
